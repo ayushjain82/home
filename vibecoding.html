@@ -64,7 +64,8 @@
                 </p>
             </header>
 
-            <div class="w-full h-64 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-center mb-16 overflow-hidden shadow-xl relative group">
+            <!-- intro graphic  -->
+            <div class="w-full h-64 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-center mb-12 overflow-hidden shadow-xl relative group">
                 <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(#6366f1 1px, transparent 1px); background-size: 24px 24px;"></div>
                 
                 <div class="relative w-full max-w-2xl px-4 flex items-center justify-between z-10 ">
@@ -97,7 +98,8 @@
                 </div>
             </div>
 
-            <section class="mb-16">
+            <!-- strategic shift  -->
+            <section class="mb-12">
                 <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
                     <i data-lucide="alert-triangle" class="w-6 h-6 text-indigo-600"></i> The Strategic Shift
                 </h2>
@@ -119,7 +121,8 @@
                 </div>
             </section>
 
-            <section class="mb-16">
+            <!-- workflow  -->
+            <section class="mb-12">
                 <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
                     <i data-lucide="zap" class="w-6 h-6 text-indigo-600"></i> The Workflow
                 </h2>
@@ -144,7 +147,8 @@
                 </div>
             </section>
 
-            <section class="mb-16 bg-slate-100 rounded-3xl p-8 md:p-12 border border-slate-200/60">
+            <!-- iteration loop   -->
+            <section class="mb-12 bg-slate-100 rounded-3xl p-6 md:p-8 border border-slate-200/60">
                 <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-3">
                     <div class="bg-white p-2 rounded-lg shadow-sm">
                         <i data-lucide="refresh-cw" class="w-6 h-6 text-indigo-600"></i>
@@ -187,7 +191,7 @@
             </section>
 
             <!-- 3 ways to use it   -->
-            <section class="mb-16">
+            <section class="mb-12">
                 <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
                     <i data-lucide="layers" class="w-6 h-6 text-indigo-600"></i> 3 Ways to Use It Today
                 </h2>
@@ -198,9 +202,9 @@
                         </div>
                         <div class="font-bold text-slate-900 mb-2 use-case-title">The "Messy Data" Validator<span class="tag">Analysis</span></div>
                         <p class="text-sm text-slate-600 leading-relaxed mb-4">Don't wait for BI. Use Pandas to prove your retention hypothesis.</p>
-                        <div class="bg-slate-900 p-3 rounded text-xs font-mono text-indigo-200 code-block">
+                        <div class="bg-slate-900 rounded text-xs font-mono text-indigo-200 code-block">
                             <span class="code-label">PROMPT</span>
-                            "Filter data.csv for users who completed step 3 and check status."
+                            "I have a CSV named 'data.csv'. Write a Python script using Pandas to filter for users who completed step 3, and calculate their retention %. Compare to the average."
                         </div>
                     </div>
 
@@ -210,9 +214,9 @@
                         </div>
                         <div class="font-bold text-slate-900 mb-2 use-case-title">The Workflow Automator<span class="tag">Automation</span></div>
                         <p class="text-sm text-slate-600 leading-relaxed mb-4">Stop manually updating Sheets. Script the Jira API glue work.</p>
-                        <div class="bg-slate-900 p-3 rounded text-xs font-mono text-blue-200 code-block">
+                        <div class="bg-slate-900 rounded text-xs font-mono text-blue-200 code-block">
                             <span class="code-label">PROMPT</span>
-                            "Fetch tickets in 'Project X' and update this Google Sheet row."
+                            "Write a Python script that uses the Jira API to fetch all tickets in 'Project X'. Update row C in this Google Sheet with the status. Tell me how to handle auth."
                         </div>
                     </div>
 
@@ -222,9 +226,9 @@
                         </div>
                         <div class="font-bold text-slate-900 mb-2 use-case-title">The "Napkin" UI Prototype<span class="tag">Design</span></div>
                         <p class="text-sm text-slate-600 leading-relaxed mb-4">Words fail. Generate an HTML file to visualize the dashboard widget.</p>
-                        <div class="bg-slate-900 p-3 rounded text-xs font-mono text-purple-200 code-block">
+                        <div class="bg-slate-900 rounded text-xs font-mono text-purple-200 code-block">
                             <span class="code-label">PROMPT</span>
-                            "Create a modern HTML card with a 'Velocity' chart and up-arrow."
+                            "Create a simple HTML/CSS webpage. Sidebar on left. Main area has a card showing 'Velocity' with a green up-arrow and a chart placeholder. Modern style."
                         </div>
                     </div>
 
@@ -242,6 +246,7 @@
                 </div>
             </section>
             
+            <!-- Footnote   -->
             <div class="mb-12 border-t border-slate-200 pt-6">
                 <div class="flex gap-2 text-slate-500">
                     <i data-lucide="info" class="w-4 h-4 mt-0.5 flex-shrink-0"></i>
